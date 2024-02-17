@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Private Build Java 17.0.5)
+[debug] Load.defaultLoad until apply took 64.7801ms
+[debug]           Load.loadUnit: plugins took 59.98ms
+[debug]           Load.loadUnit: defsScala took 0.3641ms
+[debug] [Loading] Scanning directory /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 18.0163 ms
+[debug]               Load.resolveProject(skel-scala-build) took 38.0561ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id skel-scala-build, base: /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/project, plugins: List(<none>))) took 72.6796ms
+[debug] [Loading] Done in /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/project, returning: (skel-scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 99.5716ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2328ms
+[debug]         Load.loadUnit(file:/mnt/d/Anul%203/Semestrul%201/Limbaje%20formale%20si%20automate/skel-scala-e2/skel-scala/project/, ...) took 168.7089ms
+[debug]       Load.apply: load took 319.4494ms
+[debug]       Load.apply: resolveProjects took 7.5447ms
+[debug]       Load.apply: finalTransforms took 66.4684ms
+[debug]       Load.apply: config.delegates took 6.9796ms
+[debug]       Load.apply: Def.make(settings)... took 333.6094ms
+[debug]       Load.apply: structureIndex took 98.0235ms
+[debug]       Load.apply: mkStreams took 1.493ms
+[info] loading project definition from /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1700.2281ms
+[debug]     Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala
+[debug]       Load.loadUnit: mkEval took 4.7959ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.3842 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.4702ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala, plugins: List(<none>))) took 9.4015ms
+[debug] [Loading] Done in /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 196.2969ms
+[debug]     Load.loadUnit: cleanEvalClasses took 112.6017ms
+[debug]   Load.loadUnit(file:/mnt/d/Anul%203/Semestrul%201/Limbaje%20formale%20si%20automate/skel-scala-e2/skel-scala/, ...) took 2011.7269ms
+[debug] Load.apply: load took 2028.0061ms
+[debug] Load.apply: resolveProjects took 0.2039ms
+[debug] Load.apply: finalTransforms took 10.0391ms
+[debug] Load.apply: config.delegates took 0.3323ms
+[debug] Load.apply: Def.make(settings)... took 81.3967ms
+[debug] Load.apply: structureIndex took 31.9172ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to LFA-2022-2023 (in build file:/mnt/d/Anul%203/Semestrul%201/Limbaje%20formale%20si%20automate/skel-scala-e2/skel-scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

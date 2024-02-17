@@ -1,0 +1,49 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:225:9: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m        s.push(e);[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:227:17: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m        while (!s.isEmpty && a == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:228:21: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m          var aux = s.pop;[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:235:13: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m        if (s.isEmpty)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:236:11: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m          s.push(e);[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:237:42: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m        else if (priority(e) >= priority(s.head))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:238:11: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m          s.push(e);[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:239:41: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m        else if (priority(e) < priority(s.head)) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:241:19: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m          while (!s.isEmpty && a == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:242:23: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m            var aux = s.pop;[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:244:18: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m            if (!s.isEmpty)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:245:43: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m              if (priority(e) >= priority(s.head))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:250:11: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m          s.push(e);[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:255:13: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    while (!s.isEmpty)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/skel-scala-e2/skel-scala/src/main/scala/Regex.scala:256:11: value += is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: res = res.+(<s: error>.<pop: error>)[0m
+[0m[[0m[31merror[0m] [0m[0m      res += s.pop[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

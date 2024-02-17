@@ -1,0 +1,12 @@
+2022.11.22 19:11:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src\.metals\lsp.trace.json or C:\Users\andre\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.22 19:11:51 INFO  logging to file D:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src\.metals\metals.log
+2022.11.22 19:11:51 INFO  Started: Metals version 0.11.9 in workspace 'D:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src' for client Visual Studio Code 1.73.1.
+2022.11.22 19:11:53 INFO  time: initialize in 1.72s
+2022.11.22 19:11:55 WARN  Build server is not auto-connectable.
+2022.11.22 19:11:55 WARN  no build tool detected in workspace 'D:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.22 19:11:55 WARN  no build target for: D:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src\test\scala\RegexParseTests.scala
+2022.11.22 19:12:01 INFO  no build target found for D:\Anul 3\Semestrul 1\Limbaje formale si automate\skel-scala-e2\skel-scala\src\test\scala\RegexParseTests.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.22 19:12:04 INFO  time: code lens generation in 7.94s
+Nov 22, 2022 7:12:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2022.11.22 20:13:19 INFO  shutting down Metals

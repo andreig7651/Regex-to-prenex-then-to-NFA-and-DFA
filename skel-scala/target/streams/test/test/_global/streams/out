@@ -1,0 +1,6 @@
+[debug] Running TaskDef(RegexParseTests, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])
+[debug] Summary for munit not available.
+[error] Failed: Total 32, Failed 4, Errors 0, Passed 28
+[error] Failed tests:
+[error] 	RegexParseTests
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
